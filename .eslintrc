@@ -1,0 +1,31 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": true,
+      "es6"    : true,
+      "jasmine": true
+    },
+    "globals": {
+      "module": true,
+      "inject": true,
+      "_": true,
+      "tinyMCE": true,
+      "google": true,
+      "gapi": true,
+      "sha1": true,
+      "jQuery": true,
+      "eventUnloadPlugins": true,
+      "resetValuesForPlugins": true,
+      "embedpano": true,
+      "removepano": true,
+      "crossDomainTargetUrl": true,
+      "kpanotour": true,
+      "moment": true,
+      "Cookies": true,
+      "PAGE_DATA": true,
+      "$": true,
+      "CallTrk": true,
+      "Swiper": true
+    }
+  }
+  

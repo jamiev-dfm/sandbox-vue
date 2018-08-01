@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "allowJs": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "strict": true,
+        "target": "es2017",
+        "experimentalDecorators": true
+    },
+    "include": ["dummy.ts"]
+}

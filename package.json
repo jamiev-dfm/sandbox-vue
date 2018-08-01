@@ -1,0 +1,32 @@
+{
+  "name": "sandbox-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack:dev": "webpack --progress",
+    "webpack:watch": "webpack --env.watch --progress",
+    "webpack:prod": "webpack --env.production --progress",
+    "webpack:analyze": "webpack --env.production --env.analyze --progress",
+    "webpack:clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.2.0",
+    "eslint-loader": "^2.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.6",
+    "vue-property-decorator": "^7.0.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.3",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
